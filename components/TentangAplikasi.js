@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, Linking, Button } from "react-native";
 
 export default function TentangAplikasi() {
   const handleOpenYouTube = () => {
-    const url = "https://www.youtube.com/watch?v=DEMO_VIDEO_LINK"; // Ganti dengan link demo
+    const url = "https://youtube.com/shorts/l5rr5L4jJpc"; // Ganti dengan link demo
     Linking.openURL(url);
   };
 
